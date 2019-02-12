@@ -9,14 +9,20 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:id="@+id/first_frag"
         android:name="com.example.fragxml.FirstFragment"
         android:layout_weight="1"
-        tools:layout="@layout/first_fragment" />
+        tools:layout="@layout/first_fragment" >
+
+    </fragment>
 
     <fragment
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:id="@+id/second_frag"
         android:name="com.example.fragxml.SecondFragment"
         android:layout_weight="2"
-        tools:layout="@layout/second_fragment" />
+        tools:layout="@layout/second_fragment" >
+
+    </fragment>
 </LinearLayout>
